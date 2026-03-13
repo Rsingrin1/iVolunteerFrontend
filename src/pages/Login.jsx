@@ -38,7 +38,7 @@ export default function InputUser() {
     setLoading(true);
     try {
 
-      const res = await axios.post(`${API_BASE}api/login`, 
+      const res = await axios.post(`${API_BASE}/api/login`, 
         {
           username,
           password,
